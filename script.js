@@ -28,3 +28,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Scroll Animation
 const observerOptions = {
     threshold
+}
