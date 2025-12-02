@@ -64,16 +64,16 @@ nav {
 .whatsapp{
     position: fixed;
     left: 0;
-    direction:ltr;
     bottom: 0;
+    margin: 20px;
     z-index: 1000; /* لضمان أنه يظهر في المقدمة */
 }
 
-#whatsapp-button {
+/* #whatsapp-button {
     position: fixed;
     bottom: 20px; /* تحديد المسافة من أسفل الصفحة */
-    left: 20px;  /* تحديد المسافة من الجهة اليمنى */
-    z-index: 1000; /* لضمان أنه يظهر في المقدمة */
+    /* left: 20px;  تحديد المسافة من الجهة اليمنى */
+    /* z-index: 1000; لضمان أنه يظهر في المقدمة */ */
     /* background-color: #25d366;  */
     
     /* border-radius: 50%; */
@@ -81,11 +81,11 @@ nav {
     /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
-#whatsapp-button img {
+/* #whatsapp-button img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-}
+} */
 
 
 /* ............................about us page............................ */
