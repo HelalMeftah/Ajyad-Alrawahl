@@ -542,7 +542,6 @@ nav {
     padding: 40px;
     max-width: 500px;
     width: 100%;
-    margin-right: 30%;
 }
 
 h1 {
@@ -601,8 +600,7 @@ textarea {
 .submit-btn {
     width: 100%;
     padding: 14px;
-    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-    background-color: #bdcb76;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
     border-radius: 8px;
