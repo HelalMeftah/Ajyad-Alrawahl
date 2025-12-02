@@ -88,8 +88,8 @@ nav {
     padding: 30px;
     margin-bottom: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px; */
+    /* margin-right: 150px; */
 }
 
 .intro-card p {
