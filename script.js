@@ -29,3 +29,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const observerOptions = {
     threshold
 }
+document.getElementById("whatsapp-button").addEventListener("click", function() {
+    // هنا يمكنك إضافة أي تأثيرات أو تسجيلات إذا أردت
+});
