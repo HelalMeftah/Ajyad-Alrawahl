@@ -262,17 +262,17 @@
         <form action="mailto:ajyadalrawahl@gmail.com" method="POST" autocomplete="off">
             <div class="input-group">
                 <label for="name">الاسم</label>
-                <input type="text" id="name" name="name" required autocomplete="off">
+                <input type="text" id="name" name="name" required readonly onfocus="this.removeAttribute('readonly');" autocomplete="off">
             </div>
 
             <div class="input-group">
                 <label for="email">البريد الإلكتروني</label>
-                <input type="email" id="email" name="email" autocomplete="off" required>
+                <input type="email" id="email" name="email" autocomplete="off" required readonly onfocus="this.removeAttribute('readonly');>
             </div>
 
             <div class="input-group">
                 <label for="message">الرسالة</label>
-                <textarea id="message" name="message" autocomplete="off" required></textarea>
+                <textarea id="message" name="message" autocomplete="off" required readonly onfocus="this.removeAttribute('readonly');></textarea>
             </div>
 
             <button type="submit" class="submit-btn">إرسال</button>
