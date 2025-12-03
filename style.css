@@ -377,6 +377,7 @@ nav {
     content: '';
     position: absolute;
     /* top: -50%; */
+    /* .................................top............. */
     left: -10%;
     width: 500px;
     height: 500px;
