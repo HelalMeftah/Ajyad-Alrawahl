@@ -376,8 +376,7 @@ nav {
 .hero::before {
     content: '';
     position: absolute;
-    /* top: -50%; */
-    /* .................................top............. */
+    top: -50%;
     left: -10%;
     width: 500px;
     height: 500px;
