@@ -535,7 +535,12 @@ nav {
     background: var(--bg-light);
 }
 /* .........................................call us....................................... */
-
+.fathercall{
+    /* background-color:red ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .form-container {
     background: white;
     justify-content: center;
