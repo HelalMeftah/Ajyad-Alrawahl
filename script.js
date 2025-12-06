@@ -42,7 +42,7 @@ let email_btn=document.querySelector("#email-btn")
 
 let user={
     name:"",
-    email:"",
+    // email:"",
     message:"",
     subject:""
 }
@@ -53,10 +53,10 @@ name.addEventListener("input",(e)=>{
     
 })
 
-email.addEventListener("input",(e)=>{
-    console.log(e.target.value)
-    user.email=e.target.value
-})
+// email.addEventListener("input",(e)=>{
+//     console.log(e.target.value)
+//     user.email=e.target.value
+// })
 
 message.addEventListener("input",(e)=>{
     console.log(e.target.value)
@@ -72,7 +72,7 @@ subject.addEventListener("input",(e)=>{
 
 email_btn.addEventListener("click",()=>{
     console.log("is click")
-    email_btn.href=`mailto:helalmeftah6468@gmail.com?subject=${user.subject}&body=${user.message}`;
+    email_btn.href=`mailto:helalmeftah6468@gmail.com?subject=${user.subject}&body=     ${user.message}`;
 })
 
 
