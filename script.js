@@ -72,7 +72,7 @@ subject.addEventListener("input",(e)=>{
 
 email_btn.addEventListener("click",()=>{
     console.log("is click")
-    email_btn.href=`mailto:helalmeftah6468@gmail.com?subject=${user.subject}&body=     ${user.message}`;
+    email_btn.href=`mailto:ajyadalrawahl@gmail.com?subject=${user.subject}&body=     ${user.message}`;
 })
 
 
