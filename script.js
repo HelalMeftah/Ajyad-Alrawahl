@@ -34,7 +34,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 //by khalid 
 let name=document.querySelector(".name-input");
 let email=document.querySelector(".email-input")
-let message=document.querySelector(".message-input")
+let message=document.querySelector(".message-input");
+let subject=document.querySelector(".sub-input");
 
 
 let email_btn=document.querySelector("#email-btn")
@@ -42,7 +43,8 @@ let email_btn=document.querySelector("#email-btn")
 let user={
     name:"",
     email:"",
-    message:""
+    message:"",
+    subject:""
 }
 
 name.addEventListener("input",(e)=>{
@@ -61,8 +63,16 @@ message.addEventListener("input",(e)=>{
     user.message=e.target.value
 })
 
+subject.addEventListener("input",(e)=>{
+    user.subject=e.target.value;
+}
+
+)
+
 
 email_btn.addEventListener("click",()=>{
     console.log("is click")
-    email_btn.href=`mailto:${user.email}?subject=${user.name}&body=${user.message}`;
+    email_btn.href=`mailto:helalmeftah6468@gmail.com?subject=${user.subject}&body=${user.message}`;
 })
+
+
