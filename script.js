@@ -29,3 +29,40 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const observerOptions = {
     threshold
 }
+
+
+//by khalid 
+let name=document.querySelector(".name-input");
+let email=document.querySelector(".email-input")
+let message=document.querySelector(".message-input")
+
+
+let email_btn=document.querySelector("#email-btn")
+
+let user={
+    name:"",
+    email:"",
+    message:""
+}
+
+name.addEventListener("input",(e)=>{
+    console.log(e.target.value)
+    user.name=e.target.value
+    
+})
+
+email.addEventListener("input",(e)=>{
+    console.log(e.target.value)
+    user.email=e.target.value
+})
+
+message.addEventListener("input",(e)=>{
+    console.log(e.target.value)
+    user.message=e.target.value
+})
+
+
+email_btn.addEventListener("click",()=>{
+    console.log("is click")
+    email_btn.href=`mailto:${user.email}?subject=${user.name}&body=${user.message}`;
+})
