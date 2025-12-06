@@ -33,7 +33,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 //by khalid 
 let name=document.querySelector(".name-input");
-let email=document.querySelector(".email-input")
+// let email=document.querySelector(".email-input")
 let message=document.querySelector(".message-input");
 let subject=document.querySelector(".sub-input");
 
